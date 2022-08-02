@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="scoreboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Scoreboard</span></h1>
+        <section>
+            <div class="home box">
+                <h2>Home</h2>
+                <span class="displaybox">
+                    <h3 id="teamone">0</h3>
+                </span>
+                <span class="buttons">
+                    <button class="team-one-btn-one">+1</button>
+                    <button class="team-one-btn-two">+2</button>
+                    <button class="team-one-btn-three">+3</button>
+                </span>
+            </div>
+            <div class="guest box">
+                <h2>Guest</h2>
+                <span class="displaybox">
+                    <h3 id="teamtwo">0</h3>
+                </span>
+                <span class="buttons">
+                    <button class="team-two-btn-one">+1</button>
+                    <button class="team-two-btn-two">+2</button>
+                    <button class="team-two-btn-three">+3</button>
+                </span>
+            </div>
+
+        </section>
+
+        <button onclick="resetNum()"> Reset</button>
+    </div>
+    <script src="scoreboard.js"></script>
+</body>
+
+</html>
